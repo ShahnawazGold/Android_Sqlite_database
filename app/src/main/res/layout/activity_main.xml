@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed"
+    tools:context="com.zaaviyah.zaaviyah_sqlit.MainActivity">
+
+
+    <Button
+        android:id="@+id/btAddCont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+
+        android:background="@android:color/background_light"
+        android:text=" ADD"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSearch_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btAddCont"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:background="@android:color/background_light"
+        android:text="search"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="delete"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnSearch_data"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDelete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:background="@android:color/background_light"
+        android:text="update"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+</RelativeLayout>
